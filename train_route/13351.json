@@ -1,0 +1,1520 @@
+{
+    "response_code": 200,
+    "debit": 1,
+    "train":
+    {
+        "classes": [
+        {
+            "available": "N",
+            "code": "1A",
+            "name": "FIRST AC"
+        },
+        {
+            "available": "Y",
+            "code": "SL",
+            "name": "SLEEPER CLASS"
+        },
+        {
+            "available": "Y",
+            "code": "2A",
+            "name": "SECOND AC"
+        },
+        {
+            "available": "N",
+            "code": "CC",
+            "name": "AC CHAIR CAR"
+        },
+        {
+            "available": "N",
+            "code": "2S",
+            "name": "SECOND SEATING"
+        },
+        {
+            "available": "N",
+            "code": "FC",
+            "name": "FIRST CLASS"
+        },
+        {
+            "available": "N",
+            "code": "3E",
+            "name": "3rd AC ECONOMY"
+        },
+        {
+            "available": "Y",
+            "code": "3A",
+            "name": "THIRD AC"
+        }],
+        "days": [
+        {
+            "code": "MON",
+            "runs": "Y"
+        },
+        {
+            "code": "TUE",
+            "runs": "Y"
+        },
+        {
+            "code": "WED",
+            "runs": "Y"
+        },
+        {
+            "code": "THU",
+            "runs": "Y"
+        },
+        {
+            "code": "FRI",
+            "runs": "Y"
+        },
+        {
+            "code": "SAT",
+            "runs": "Y"
+        },
+        {
+            "code": "SUN",
+            "runs": "Y"
+        }],
+        "name": "DHANBAD - ALLEPY EXPRESS",
+        "number": "13351"
+    },
+    "route": [
+    {
+        "halt": -1,
+        "scharr": "SOURCE",
+        "station":
+        {
+            "lat": 23.7956531,
+            "code": "DHN",
+            "name": "DHANBAD JN",
+            "lng": 86.43038589999999
+        },
+        "schdep": "10:30",
+        "distance": 0.0,
+        "day": 1,
+        "no": 1
+    },
+    {
+        "halt": 2,
+        "scharr": "10:39",
+        "station":
+        {
+            "lat": 23.814569,
+            "code": "TET",
+            "name": "TETULMARI",
+            "lng": 86.343201
+        },
+        "schdep": "10:41",
+        "distance": 9.0,
+        "day": 1,
+        "no": 2
+    },
+    {
+        "halt": 20,
+        "scharr": "11:05",
+        "station":
+        {
+            "lat": 23.8717293,
+            "code": "GMO",
+            "name": "NSC BOSE J GOMO",
+            "lng": 86.1524866
+        },
+        "schdep": "11:25",
+        "distance": 29.0,
+        "day": 1,
+        "no": 3
+    },
+    {
+        "halt": 2,
+        "scharr": "11:50",
+        "station":
+        {
+            "lat": 23.7475498,
+            "code": "CRP",
+            "name": "CHANDRAPURA",
+            "lng": 86.1217424
+        },
+        "schdep": "11:52",
+        "distance": 46.0,
+        "day": 1,
+        "no": 4
+    },
+    {
+        "halt": 10,
+        "scharr": "12:25",
+        "station":
+        {
+            "lat": 23.6692956,
+            "code": "BKSC",
+            "name": "BOKARO STL CITY",
+            "lng": 86.15111200000001
+        },
+        "schdep": "12:35",
+        "distance": 61.0,
+        "day": 1,
+        "no": 5
+    },
+    {
+        "halt": 2,
+        "scharr": "12:48",
+        "station":
+        {
+            "lat": 23.5086932,
+            "code": "PNW",
+            "name": "PUNDHAG",
+            "lng": 86.0893341
+        },
+        "schdep": "12:50",
+        "distance": 78.0,
+        "day": 1,
+        "no": 6
+    },
+    {
+        "halt": 1,
+        "scharr": "13:12",
+        "station":
+        {
+            "lat": 23.3283436,
+            "code": "JAA",
+            "name": "JHALIDA",
+            "lng": 86.23363429999999
+        },
+        "schdep": "13:13",
+        "distance": 102.0,
+        "day": 1,
+        "no": 7
+    },
+    {
+        "halt": 2,
+        "scharr": "13:33",
+        "station":
+        {
+            "lat": 45.7872329,
+            "code": "MURI",
+            "name": "MURI",
+            "lng": -108.5564445
+        },
+        "schdep": "13:35",
+        "distance": 114.0,
+        "day": 1,
+        "no": 8
+    },
+    {
+        "halt": 15,
+        "scharr": "14:50",
+        "station":
+        {
+            "lat": 23.3440997,
+            "code": "RNC",
+            "name": "RANCHI",
+            "lng": 85.309562
+        },
+        "schdep": "15:05",
+        "distance": 179.0,
+        "day": 1,
+        "no": 9
+    },
+    {
+        "halt": 5,
+        "scharr": "15:20",
+        "station":
+        {
+            "lat": 23.2855789,
+            "code": "HTE",
+            "name": "HATIA",
+            "lng": 85.3058664
+        },
+        "schdep": "15:25",
+        "distance": 186.0,
+        "day": 1,
+        "no": 10
+    },
+    {
+        "halt": 1,
+        "scharr": "15:57",
+        "station":
+        {
+            "lat": 23.0613824,
+            "code": "GBX",
+            "name": "GOVINDPUR ROAD",
+            "lng": 85.0437178
+        },
+        "schdep": "15:58",
+        "distance": 227.0,
+        "day": 1,
+        "no": 11
+    },
+    {
+        "halt": 1,
+        "scharr": "16:37",
+        "station":
+        {
+            "lat": -1.3928344,
+            "code": "BANO",
+            "name": "BANO",
+            "lng": -78.42687579999999
+        },
+        "schdep": "16:38",
+        "distance": 279.0,
+        "day": 1,
+        "no": 12
+    },
+    {
+        "halt": 1,
+        "scharr": "17:44",
+        "station":
+        {
+            "lat": 21.1102249,
+            "code": "NXN",
+            "name": "NUAGAON",
+            "lng": 84.7237198
+        },
+        "schdep": "17:45",
+        "distance": 321.0,
+        "day": 1,
+        "no": 13
+    },
+    {
+        "halt": 1,
+        "scharr": "18:13",
+        "station":
+        {
+            "lat": 22.2396629,
+            "code": "BNDM",
+            "name": "BONDAMUNDA",
+            "lng": 84.91670479999999
+        },
+        "schdep": "18:14",
+        "distance": 346.0,
+        "day": 1,
+        "no": 14
+    },
+    {
+        "halt": 30,
+        "scharr": "18:28",
+        "station":
+        {
+            "lat": 22.260423,
+            "code": "ROU",
+            "name": "ROURKELA",
+            "lng": 84.8535844
+        },
+        "schdep": "18:58",
+        "distance": 349.0,
+        "day": 1,
+        "no": 15
+    },
+    {
+        "halt": 1,
+        "scharr": "19:26",
+        "station":
+        {
+            "lat": 22.186154,
+            "code": "GP",
+            "name": "RAJ GANGPUR",
+            "lng": 84.58357699999999
+        },
+        "schdep": "19:27",
+        "distance": 379.0,
+        "day": 1,
+        "no": 16
+    },
+    {
+        "halt": 1,
+        "scharr": "19:56",
+        "station":
+        {
+            "lat": 22.0525565,
+            "code": "BMB",
+            "name": "BAMRA",
+            "lng": 84.288444
+        },
+        "schdep": "19:57",
+        "distance": 414.0,
+        "day": 1,
+        "no": 17
+    },
+    {
+        "halt": 10,
+        "scharr": "20:40",
+        "station":
+        {
+            "lat": 21.8554375,
+            "code": "JSG",
+            "name": "JHARSUGUDA JN",
+            "lng": 84.0061661
+        },
+        "schdep": "20:50",
+        "distance": 451.0,
+        "day": 1,
+        "no": 18
+    },
+    {
+        "halt": 2,
+        "scharr": "21:13",
+        "station":
+        {
+            "lat": 21.2713405,
+            "code": "RGL",
+            "name": "RENGALI",
+            "lng": 85.0173224
+        },
+        "schdep": "21:15",
+        "distance": 477.0,
+        "day": 1,
+        "no": 19
+    },
+    {
+        "halt": 2,
+        "scharr": "21:35",
+        "station":
+        {
+            "lat": 21.4776481,
+            "code": "SBPD",
+            "name": "SAMBALPUR ROAD",
+            "lng": 83.97642499999999
+        },
+        "schdep": "21:37",
+        "distance": 498.0,
+        "day": 1,
+        "no": 20
+    },
+    {
+        "halt": 10,
+        "scharr": "21:50",
+        "station":
+        {
+            "lat": 21.4668716,
+            "code": "SBP",
+            "name": "SAMBALPUR",
+            "lng": 83.9811665
+        },
+        "schdep": "22:00",
+        "distance": 499.0,
+        "day": 1,
+        "no": 21
+    },
+    {
+        "halt": 2,
+        "scharr": "22:25",
+        "station":
+        {
+            "lat": 21.3690304,
+            "code": "ATS",
+            "name": "ATTABIRA",
+            "lng": 83.775678
+        },
+        "schdep": "22:27",
+        "distance": 523.0,
+        "day": 1,
+        "no": 22
+    },
+    {
+        "halt": 5,
+        "scharr": "22:40",
+        "station":
+        {
+            "lat": 21.3329449,
+            "code": "BRGA",
+            "name": "BARGARH ROAD",
+            "lng": 83.64322279999999
+        },
+        "schdep": "22:45",
+        "distance": 542.0,
+        "day": 1,
+        "no": 23
+    },
+    {
+        "halt": 2,
+        "scharr": "23:00",
+        "station":
+        {
+            "lat": 21.1813399,
+            "code": "BRPL",
+            "name": "BARPALI",
+            "lng": 83.59758819999999
+        },
+        "schdep": "23:02",
+        "distance": 561.0,
+        "day": 1,
+        "no": 24
+    },
+    {
+        "halt": 5,
+        "scharr": "00:20",
+        "station":
+        {
+            "lat": 20.7074234,
+            "code": "BLGR",
+            "name": "BALANGIR",
+            "lng": 83.4842725
+        },
+        "schdep": "00:25",
+        "distance": 617.0,
+        "day": 2,
+        "no": 25
+    },
+    {
+        "halt": 2,
+        "scharr": "00:58",
+        "station":
+        {
+            "lat": 20.3747293,
+            "code": "BUDM",
+            "name": "BADMAL",
+            "lng": 83.2880591
+        },
+        "schdep": "01:00",
+        "distance": 661.0,
+        "day": 2,
+        "no": 26
+    },
+    {
+        "halt": 10,
+        "scharr": "01:35",
+        "station":
+        {
+            "lat": 20.28709,
+            "code": "TIG",
+            "name": "TITLAGARH",
+            "lng": 83.14660769999999
+        },
+        "schdep": "01:45",
+        "distance": 681.0,
+        "day": 2,
+        "no": 27
+    },
+    {
+        "halt": 2,
+        "scharr": "02:00",
+        "station":
+        {
+            "lat": 20.1850477,
+            "code": "KSNG",
+            "name": "KESINGA",
+            "lng": 83.2104426
+        },
+        "schdep": "02:02",
+        "distance": 694.0,
+        "day": 2,
+        "no": 28
+    },
+    {
+        "halt": 2,
+        "scharr": "02:17",
+        "station":
+        {
+            "lat": 20.1268792,
+            "code": "RPRD",
+            "name": "RUPRA ROAD",
+            "lng": 83.3345219
+        },
+        "schdep": "02:19",
+        "distance": 710.0,
+        "day": 2,
+        "no": 29
+    },
+    {
+        "halt": 2,
+        "scharr": "02:28",
+        "station":
+        {
+            "lat": 37.5295671,
+            "code": "NRLR",
+            "name": "NORIA ROAD",
+            "lng": -121.9338531
+        },
+        "schdep": "02:30",
+        "distance": 717.0,
+        "day": 2,
+        "no": 30
+    },
+    {
+        "halt": 2,
+        "scharr": "02:55",
+        "station":
+        {
+            "lat": 19.8360536,
+            "code": "AMB",
+            "name": "AMBODALA",
+            "lng": 83.45676
+        },
+        "schdep": "02:57",
+        "distance": 742.0,
+        "day": 2,
+        "no": 31
+    },
+    {
+        "halt": 2,
+        "scharr": "03:25",
+        "station":
+        {
+            "lat": 19.6211504,
+            "code": "MNGD",
+            "name": "MUNIGUDA",
+            "lng": 83.4987493
+        },
+        "schdep": "03:27",
+        "distance": 767.0,
+        "day": 2,
+        "no": 32
+    },
+    {
+        "halt": 2,
+        "scharr": "04:08",
+        "station":
+        {
+            "lat": 19.3288938,
+            "code": "THV",
+            "name": "THERUBALI",
+            "lng": 83.4403434
+        },
+        "schdep": "04:10",
+        "distance": 802.0,
+        "day": 2,
+        "no": 33
+    },
+    {
+        "halt": 2,
+        "scharr": "04:20",
+        "station":
+        {
+            "lat": 19.257766,
+            "code": "SPRD",
+            "name": "SINGAPURAM ROAD",
+            "lng": 83.40283900000001
+        },
+        "schdep": "04:22",
+        "distance": 811.0,
+        "day": 2,
+        "no": 34
+    },
+    {
+        "halt": 15,
+        "scharr": "04:35",
+        "station":
+        {
+            "lat": 19.171209,
+            "code": "RGDA",
+            "name": "RAYAGADA",
+            "lng": 83.4163226
+        },
+        "schdep": "04:50",
+        "distance": 820.0,
+        "day": 2,
+        "no": 35
+    },
+    {
+        "halt": 2,
+        "scharr": "05:28",
+        "station":
+        {
+            "lat": 18.7710232,
+            "code": "PVPT",
+            "name": "PARVATIPURAM TN",
+            "lng": 83.42719369999999
+        },
+        "schdep": "05:30",
+        "distance": 865.0,
+        "day": 2,
+        "no": 36
+    },
+    {
+        "halt": 2,
+        "scharr": "05:35",
+        "station":
+        {
+            "lat": 18.7817162,
+            "code": "PVP",
+            "name": "PARVATIPURAM",
+            "lng": 83.42675179999999
+        },
+        "schdep": "05:37",
+        "distance": 867.0,
+        "day": 2,
+        "no": 37
+    },
+    {
+        "halt": 3,
+        "scharr": "06:02",
+        "station":
+        {
+            "lat": 18.5735047,
+            "code": "VBL",
+            "name": "BOBBILI",
+            "lng": 83.3583654
+        },
+        "schdep": "06:05",
+        "distance": 891.0,
+        "day": 2,
+        "no": 38
+    },
+    {
+        "halt": 5,
+        "scharr": "07:15",
+        "station":
+        {
+            "lat": 18.1066576,
+            "code": "VZM",
+            "name": "VIZIANAGRAM JN",
+            "lng": 83.39555059999999
+        },
+        "schdep": "07:20",
+        "distance": 944.0,
+        "day": 2,
+        "no": 39
+    },
+    {
+        "halt": 2,
+        "scharr": "07:48",
+        "station":
+        {
+            "lat": 17.8908652,
+            "code": "KTV",
+            "name": "KOTTAVALASA",
+            "lng": 83.19082159999999
+        },
+        "schdep": "07:50",
+        "distance": 979.0,
+        "day": 2,
+        "no": 40
+    },
+    {
+        "halt": 2,
+        "scharr": "08:05",
+        "station":
+        {
+            "lat": 17.7664188,
+            "code": "SCM",
+            "name": "SIMHACHALAM",
+            "lng": 83.25083289999999
+        },
+        "schdep": "08:07",
+        "distance": 997.0,
+        "day": 2,
+        "no": 41
+    },
+    {
+        "halt": 20,
+        "scharr": "09:05",
+        "station":
+        {
+            "lat": 17.6868159,
+            "code": "VSKP",
+            "name": "VISAKHAPATNAM",
+            "lng": 83.2184815
+        },
+        "schdep": "09:25",
+        "distance": 1005.0,
+        "day": 2,
+        "no": 42
+    },
+    {
+        "halt": 2,
+        "scharr": "09:55",
+        "station":
+        {
+            "lat": 17.7000596,
+            "code": "DVD",
+            "name": "DUVVADA",
+            "lng": 83.1535986
+        },
+        "schdep": "09:57",
+        "distance": 1023.0,
+        "day": 2,
+        "no": 43
+    },
+    {
+        "halt": 1,
+        "scharr": "10:14",
+        "station":
+        {
+            "lat": 17.6896435,
+            "code": "AKP",
+            "name": "ANAKAPALLE",
+            "lng": 83.0023634
+        },
+        "schdep": "10:15",
+        "distance": 1039.0,
+        "day": 2,
+        "no": 44
+    },
+    {
+        "halt": 1,
+        "scharr": "10:31",
+        "station":
+        {
+            "lat": 13.4583247,
+            "code": "YLM",
+            "name": "ELAMANCHILI",
+            "lng": 74.7556518
+        },
+        "schdep": "10:32",
+        "distance": 1063.0,
+        "day": 2,
+        "no": 45
+    },
+    {
+        "halt": 1,
+        "scharr": "10:47",
+        "station":
+        {
+            "lat": 17.666433,
+            "code": "NRP",
+            "name": "NARSIPATNAM RD",
+            "lng": 82.6105228
+        },
+        "schdep": "10:48",
+        "distance": 1080.0,
+        "day": 2,
+        "no": 46
+    },
+    {
+        "halt": 1,
+        "scharr": "11:04",
+        "station":
+        {
+            "lat": 28.5958478,
+            "code": "TUNI",
+            "name": "TUNI",
+            "lng": -81.351191
+        },
+        "schdep": "11:05",
+        "distance": 1102.0,
+        "day": 2,
+        "no": 47
+    },
+    {
+        "halt": 1,
+        "scharr": "11:19",
+        "station":
+        {
+            "lat": 17.2792947,
+            "code": "ANV",
+            "name": "ANNAVARAM",
+            "lng": 82.3967108
+        },
+        "schdep": "11:20",
+        "distance": 1119.0,
+        "day": 2,
+        "no": 48
+    },
+    {
+        "halt": 1,
+        "scharr": "11:35",
+        "station":
+        {
+            "lat": 17.1561749,
+            "code": "GLP",
+            "name": "GOLLAPROLU",
+            "lng": 82.2861382
+        },
+        "schdep": "11:36",
+        "distance": 1138.0,
+        "day": 2,
+        "no": 49
+    },
+    {
+        "halt": 1,
+        "scharr": "11:43",
+        "station":
+        {
+            "lat": 17.1124269,
+            "code": "PAP",
+            "name": "PITHAPURAM",
+            "lng": 82.2528975
+        },
+        "schdep": "11:44",
+        "distance": 1144.0,
+        "day": 2,
+        "no": 50
+    },
+    {
+        "halt": 1,
+        "scharr": "11:54",
+        "station":
+        {
+            "lat": 17.0504374,
+            "code": "SLO",
+            "name": "SAMALKOT JN",
+            "lng": 82.1659243
+        },
+        "schdep": "11:55",
+        "distance": 1156.0,
+        "day": 2,
+        "no": 51
+    },
+    {
+        "halt": 1,
+        "scharr": "12:14",
+        "station":
+        {
+            "lat": 16.4694549,
+            "code": "APT",
+            "name": "ANAPARTI",
+            "lng": 76.61527699999999
+        },
+        "schdep": "12:15",
+        "distance": 1183.0,
+        "day": 2,
+        "no": 52
+    },
+    {
+        "halt": 1,
+        "scharr": "12:31",
+        "station":
+        {
+            "lat": 16.9355804,
+            "code": "DWP",
+            "name": "DWARAPUDI",
+            "lng": 81.9261999
+        },
+        "schdep": "12:32",
+        "distance": 1186.0,
+        "day": 2,
+        "no": 53
+    },
+    {
+        "halt": 5,
+        "scharr": "13:11",
+        "station":
+        {
+            "lat": 17.0005383,
+            "code": "RJY",
+            "name": "RAJAMUNDRY",
+            "lng": 81.8040345
+        },
+        "schdep": "13:16",
+        "distance": 1206.0,
+        "day": 2,
+        "no": 54
+    },
+    {
+        "halt": 1,
+        "scharr": "13:29",
+        "station":
+        {
+            "lat": 17.0125213,
+            "code": "KVR",
+            "name": "KOVVUR",
+            "lng": 81.7267341
+        },
+        "schdep": "13:30",
+        "distance": 1214.0,
+        "day": 2,
+        "no": 55
+    },
+    {
+        "halt": 1,
+        "scharr": "13:44",
+        "station":
+        {
+            "lat": 16.9016205,
+            "code": "NDD",
+            "name": "NIDADAVOLU JN",
+            "lng": 81.6637765
+        },
+        "schdep": "13:45",
+        "distance": 1229.0,
+        "day": 2,
+        "no": 56
+    },
+    {
+        "halt": 1,
+        "scharr": "14:02",
+        "station":
+        {
+            "lat": 16.8138415,
+            "code": "TDD",
+            "name": "TADEPALLIGUDEM",
+            "lng": 81.521241
+        },
+        "schdep": "14:03",
+        "distance": 1248.0,
+        "day": 2,
+        "no": 57
+    },
+    {
+        "halt": 1,
+        "scharr": "14:36",
+        "station":
+        {
+            "lat": 16.7106604,
+            "code": "EE",
+            "name": "ELURU",
+            "lng": 81.0952431
+        },
+        "schdep": "14:37",
+        "distance": 1296.0,
+        "day": 2,
+        "no": 58
+    },
+    {
+        "halt": 15,
+        "scharr": "17:05",
+        "station":
+        {
+            "lat": 16.5061743,
+            "code": "BZA",
+            "name": "VIJAYAWADA JN",
+            "lng": 80.6480153
+        },
+        "schdep": "17:20",
+        "distance": 1356.0,
+        "day": 2,
+        "no": 59
+    },
+    {
+        "halt": 1,
+        "scharr": "17:49",
+        "station":
+        {
+            "lat": 16.237933,
+            "code": "TEL",
+            "name": "TENALI JN",
+            "lng": 80.6444099
+        },
+        "schdep": "17:50",
+        "distance": 1387.0,
+        "day": 2,
+        "no": 60
+    },
+    {
+        "halt": 1,
+        "scharr": "18:09",
+        "station":
+        {
+            "lat": 16.0630862,
+            "code": "NDO",
+            "name": "NIDUBROLU",
+            "lng": 80.56196709999999
+        },
+        "schdep": "18:10",
+        "distance": 1409.0,
+        "day": 2,
+        "no": 61
+    },
+    {
+        "halt": 1,
+        "scharr": "18:29",
+        "station":
+        {
+            "lat": 15.9039445,
+            "code": "BPP",
+            "name": "BAPATLA",
+            "lng": 80.46713749999999
+        },
+        "schdep": "18:30",
+        "distance": 1430.0,
+        "day": 2,
+        "no": 62
+    },
+    {
+        "halt": 1,
+        "scharr": "18:41",
+        "station":
+        {
+            "lat": 15.8135755,
+            "code": "CLX",
+            "name": "CHIRALA",
+            "lng": 80.3547286
+        },
+        "schdep": "18:42",
+        "distance": 1445.0,
+        "day": 2,
+        "no": 63
+    },
+    {
+        "halt": 1,
+        "scharr": "18:59",
+        "station":
+        {
+            "lat": 15.698071,
+            "code": "CJM",
+            "name": "CHINNA GANJAM",
+            "lng": 80.2377078
+        },
+        "schdep": "19:00",
+        "distance": 1465.0,
+        "day": 2,
+        "no": 64
+    },
+    {
+        "halt": 1,
+        "scharr": "19:29",
+        "station":
+        {
+            "lat": 15.5057232,
+            "code": "OGL",
+            "name": "ONGOLE",
+            "lng": 80.049922
+        },
+        "schdep": "19:30",
+        "distance": 1494.0,
+        "day": 2,
+        "no": 65
+    },
+    {
+        "halt": 1,
+        "scharr": "19:59",
+        "station":
+        {
+            "lat": 15.2500044,
+            "code": "SKM",
+            "name": "SINGARAYAKONDA",
+            "lng": 80.0212291
+        },
+        "schdep": "20:00",
+        "distance": 1522.0,
+        "day": 2,
+        "no": 66
+    },
+    {
+        "halt": 1,
+        "scharr": "20:24",
+        "station":
+        {
+            "lat": 33.9201826,
+            "code": "KVZ",
+            "name": "KAVALI",
+            "lng": -84.3596991
+        },
+        "schdep": "20:25",
+        "distance": 1560.0,
+        "day": 2,
+        "no": 67
+    },
+    {
+        "halt": 1,
+        "scharr": "20:37",
+        "station":
+        {
+            "lat": 14.7949897,
+            "code": "BTTR",
+            "name": "BITRAGUNTA",
+            "lng": 79.9584397
+        },
+        "schdep": "20:38",
+        "distance": 1576.0,
+        "day": 2,
+        "no": 68
+    },
+    {
+        "halt": 1,
+        "scharr": "21:19",
+        "station":
+        {
+            "lat": 14.4425987,
+            "code": "NLR",
+            "name": "NELLORE",
+            "lng": 79.98645599999999
+        },
+        "schdep": "21:20",
+        "distance": 1610.0,
+        "day": 2,
+        "no": 69
+    },
+    {
+        "halt": 2,
+        "scharr": "22:40",
+        "station":
+        {
+            "lat": 14.1463188,
+            "code": "GDR",
+            "name": "GUDUR JN",
+            "lng": 79.8503887
+        },
+        "schdep": "22:42",
+        "distance": 1648.0,
+        "day": 2,
+        "no": 70
+    },
+    {
+        "halt": 2,
+        "scharr": "23:03",
+        "station":
+        {
+            "lat": 13.9088029,
+            "code": "NYP",
+            "name": "NAYADUPETA",
+            "lng": 79.90083159999999
+        },
+        "schdep": "23:05",
+        "distance": 1676.0,
+        "day": 2,
+        "no": 71
+    },
+    {
+        "halt": 2,
+        "scharr": "23:28",
+        "station":
+        {
+            "lat": 13.70215,
+            "code": "SPE",
+            "name": "SULLURUPETA",
+            "lng": 80.01807170000001
+        },
+        "schdep": "23:30",
+        "distance": 1703.0,
+        "day": 2,
+        "no": 72
+    },
+    {
+        "halt": 25,
+        "scharr": "01:35",
+        "station":
+        {
+            "lat": 13.0823077,
+            "code": "MAS",
+            "name": "CHENNAI CENTRAL",
+            "lng": 80.2755486
+        },
+        "schdep": "02:00",
+        "distance": 1786.0,
+        "day": 3,
+        "no": 73
+    },
+    {
+        "halt": 2,
+        "scharr": "02:33",
+        "station":
+        {
+            "lat": 13.2544335,
+            "code": "TRL",
+            "name": "TIRUVALLUR",
+            "lng": 80.0087746
+        },
+        "schdep": "02:35",
+        "distance": 1834.0,
+        "day": 3,
+        "no": 74
+    },
+    {
+        "halt": 2,
+        "scharr": "03:08",
+        "station":
+        {
+            "lat": 13.0840593,
+            "code": "AJJ",
+            "name": "ARAKKONAM",
+            "lng": 79.6704128
+        },
+        "schdep": "03:10",
+        "distance": 1860.0,
+        "day": 3,
+        "no": 75
+    },
+    {
+        "halt": 2,
+        "scharr": "03:48",
+        "station":
+        {
+            "lat": 12.9777258,
+            "code": "MCN",
+            "name": "MUKUNDARAYAPURM",
+            "lng": 79.2900372
+        },
+        "schdep": "03:50",
+        "distance": 1904.0,
+        "day": 3,
+        "no": 76
+    },
+    {
+        "halt": 2,
+        "scharr": "04:13",
+        "station":
+        {
+            "lat": 12.9734246,
+            "code": "KPD",
+            "name": "KATPADI JN",
+            "lng": 79.1369301
+        },
+        "schdep": "04:15",
+        "distance": 1921.0,
+        "day": 3,
+        "no": 77
+    },
+    {
+        "halt": 2,
+        "scharr": "04:38",
+        "station":
+        {
+            "lat": 12.9447361,
+            "code": "GYM",
+            "name": "GUDIYATTAM",
+            "lng": 78.87090189999999
+        },
+        "schdep": "04:40",
+        "distance": 1946.0,
+        "day": 3,
+        "no": 78
+    },
+    {
+        "halt": 2,
+        "scharr": "05:08",
+        "station":
+        {
+            "lat": 12.6950325,
+            "code": "VN",
+            "name": "VANIYAMBADI",
+            "lng": 78.6218853
+        },
+        "schdep": "05:10",
+        "distance": 1989.0,
+        "day": 3,
+        "no": 79
+    },
+    {
+        "halt": 2,
+        "scharr": "06:08",
+        "station":
+        {
+            "lat": 12.5540754,
+            "code": "JTJ",
+            "name": "JOLARPETTAI",
+            "lng": 78.5717631
+        },
+        "schdep": "06:10",
+        "distance": 2005.0,
+        "day": 3,
+        "no": 80
+    },
+    {
+        "halt": 2,
+        "scharr": "06:21",
+        "station":
+        {
+            "lat": 12.5080698,
+            "code": "TPT",
+            "name": "TIRUPATTUR JN",
+            "lng": 78.57017490000001
+        },
+        "schdep": "06:23",
+        "distance": 2012.0,
+        "day": 3,
+        "no": 81
+    },
+    {
+        "halt": 1,
+        "scharr": "06:41",
+        "station":
+        {
+            "lat": 12.3133287,
+            "code": "SLY",
+            "name": "SAMALPATTI",
+            "lng": 78.48087749999999
+        },
+        "schdep": "06:42",
+        "distance": 2036.0,
+        "day": 3,
+        "no": 82
+    },
+    {
+        "halt": 1,
+        "scharr": "07:19",
+        "station":
+        {
+            "lat": 11.9835713,
+            "code": "BQI",
+            "name": "BOMMIDI",
+            "lng": 78.24634689999999
+        },
+        "schdep": "07:20",
+        "distance": 2082.0,
+        "day": 3,
+        "no": 83
+    },
+    {
+        "halt": 3,
+        "scharr": "08:07",
+        "station":
+        {
+            "lat": 42.51954,
+            "code": "SA",
+            "name": "SALEM JN",
+            "lng": -70.8967155
+        },
+        "schdep": "08:10",
+        "distance": 2125.0,
+        "day": 3,
+        "no": 84
+    },
+    {
+        "halt": 10,
+        "scharr": "09:10",
+        "station":
+        {
+            "lat": 11.3410364,
+            "code": "ED",
+            "name": "ERODE JN",
+            "lng": 77.7171642
+        },
+        "schdep": "09:20",
+        "distance": 2188.0,
+        "day": 3,
+        "no": 85
+    },
+    {
+        "halt": 2,
+        "scharr": "10:03",
+        "station":
+        {
+            "lat": 11.1085242,
+            "code": "TUP",
+            "name": "TIRUPPUR",
+            "lng": 77.3410656
+        },
+        "schdep": "10:05",
+        "distance": 2238.0,
+        "day": 3,
+        "no": 86
+    },
+    {
+        "halt": 5,
+        "scharr": "11:00",
+        "station":
+        {
+            "lat": 11.0168445,
+            "code": "CBE",
+            "name": "COIMBATORE JN",
+            "lng": 76.9558321
+        },
+        "schdep": "11:05",
+        "distance": 2288.0,
+        "day": 3,
+        "no": 87
+    },
+    {
+        "halt": 10,
+        "scharr": "13:10",
+        "station":
+        {
+            "lat": 10.7867303,
+            "code": "PGT",
+            "name": "PALAKKAD",
+            "lng": 76.6547932
+        },
+        "schdep": "13:20",
+        "distance": 2342.0,
+        "day": 3,
+        "no": 88
+    },
+    {
+        "halt": 10,
+        "scharr": "15:00",
+        "station":
+        {
+            "lat": 10.7676064,
+            "code": "SRR",
+            "name": "SHORANUR JN",
+            "lng": 76.2652909
+        },
+        "schdep": "15:10",
+        "distance": 2385.0,
+        "day": 3,
+        "no": 89
+    },
+    {
+        "halt": 3,
+        "scharr": "16:00",
+        "station":
+        {
+            "lat": 10.516089,
+            "code": "TCR",
+            "name": "THRISUR",
+            "lng": 76.20846399999999
+        },
+        "schdep": "16:03",
+        "distance": 2418.0,
+        "day": 3,
+        "no": 90
+    },
+    {
+        "halt": 2,
+        "scharr": "16:50",
+        "station":
+        {
+            "lat": 10.1003709,
+            "code": "AWY",
+            "name": "ALUVA",
+            "lng": 76.35703819999999
+        },
+        "schdep": "16:52",
+        "distance": 2472.0,
+        "day": 3,
+        "no": 91
+    },
+    {
+        "halt": 5,
+        "scharr": "17:35",
+        "station":
+        {
+            "lat": 9.9816358,
+            "code": "ERS",
+            "name": "ERNAKULAM JN",
+            "lng": 76.2998842
+        },
+        "schdep": "17:40",
+        "distance": 2492.0,
+        "day": 3,
+        "no": 92
+    },
+    {
+        "halt": 1,
+        "scharr": "18:01",
+        "station":
+        {
+            "lat": 9.7749505,
+            "code": "TUVR",
+            "name": "TURAVUR",
+            "lng": 76.3102316
+        },
+        "schdep": "18:02",
+        "distance": 2515.0,
+        "day": 3,
+        "no": 93
+    },
+    {
+        "halt": 1,
+        "scharr": "18:13",
+        "station":
+        {
+            "lat": 9.6836368,
+            "code": "SRTL",
+            "name": "CHERTHALA",
+            "lng": 76.3365377
+        },
+        "schdep": "18:14",
+        "distance": 2525.0,
+        "day": 3,
+        "no": 94
+    },
+    {
+        "halt": 1,
+        "scharr": "18:35",
+        "station":
+        {
+            "lat": 9.598735999999999,
+            "code": "MAKM",
+            "name": "MARARIKULAM",
+            "lng": 76.3116235
+        },
+        "schdep": "18:36",
+        "distance": 2536.0,
+        "day": 3,
+        "no": 95
+    },
+    {
+        "halt": -1,
+        "scharr": "19:55",
+        "station":
+        {
+            "lat": 9.498066699999999,
+            "code": "ALLP",
+            "name": "ALAPPUZHA",
+            "lng": 76.3388484
+        },
+        "schdep": "DEST",
+        "distance": 2549.0,
+        "day": 3,
+        "no": 96
+    }]
+}
